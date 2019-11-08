@@ -13,6 +13,11 @@ html, body {
     background: #F1F1F1;
 }
 
+a {
+    width: 95%;
+    word-break: break-all;
+}
+
 img {
     width: 50px;
     display: inline-block;
