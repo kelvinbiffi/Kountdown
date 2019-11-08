@@ -1,8 +1,121 @@
+/**
+    font-family: 'McLaren', cursive;
+    font-family: 'Jomolhari', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+*/
+@import url('https://fonts.googleapis.com/css?family=Jomolhari|McLaren|Montserrat|Roboto+Slab&display=swap');
+
 html, body {
     padding: 0;
     margin: 0;
+    text-align: center;
+    background: #F1F1F1;
+}
+
+img {
+    width: 50px;
+    display: inline-block;
+    margin: 10px;
+}
+
+section {
+    width: 640px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #333333;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 650px) {
+    section {
+        width: 95%;;
+    }
+}
+
+pre {
+    overflow: auto;
+    text-align: left;
+    width: 640px;
+    display: inline-block;
+    box-sizing: border-box;
+    background: #DDD;
+    margin: 0;
+    margin-bottom: 20px;
+    border: 1px solid #BBB;s
+}
+
+@media screen and (max-width: 650px) {
+    pre {
+        width: 95%;;
+    }
+}
+
+small {
+    display: block;
 }
 
 div[data-kountdown] div, div[id*=kountdown] div {
     display: inline-block;
+}
+
+h1 {
+    font-family: 'McLaren', cursive;
+    font-family: 70px;
+    margin-top: 0;
+}
+
+article {
+    font-family: 'McLaren', cursive;
+    display: inline-block;
+    width: 95%;
+    margin-bottom: 20px;
+    background: #F5F5F5;
+    box-sizing: border-box;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.blackfriday {
+    font-family: 'Jomolhari', serif;
+}
+
+.blackfriday h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.blackfriday .time div {
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+
+.blackfriday .time span {
+    font-size: 20px;
+}
+
+.blackfriday .time small {
+    font-weight: 600;
+}
+
+.christimas {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.christimas h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.new-year {
+    font-family: 'Roboto Slab', serif;
+}
+.new-year h3 {
+    font-size: 30px;
+    margin: 0;
 }
